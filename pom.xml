@@ -98,7 +98,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- By default build for local Docker platform.
          To create multi-arch image, pass -Ddocker.platforms=linux/arm64,linux/amd64
     -->
-    <docker.platforms></docker.platforms>
+    <docker.platforms/>
 
     <!-- required for running tests on JDK11+ -->
     <test.additional.args>
@@ -116,7 +116,7 @@ flexible messaging model and an intuitive client API.</description>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
     <testFailFast>true</testFailFast>
-    <testFailFastFile></testFailFastFile>
+    <testFailFastFile/>
     <testJacocoAgentArgument/>
     <integrationtest.coverage.enabled>false</integrationtest.coverage.enabled>
     <integrationtest.coverage.dir>${project.build.directory}</integrationtest.coverage.dir>
@@ -147,7 +147,7 @@ flexible messaging model and an intuitive client API.</description>
     <jersey.version>2.34</jersey.version>
     <athenz.version>1.10.50</athenz.version>
     <prometheus.version>0.16.0</prometheus.version>
-    <vertx.version>4.3.8</vertx.version>
+    <vertx.version>4.4.8</vertx.version>
     <rocksdb.version>7.9.2</rocksdb.version>
     <slf4j.version>1.7.32</slf4j.version>
     <commons.collections4.version>4.4</commons.collections4.version>
