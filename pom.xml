@@ -98,7 +98,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- By default build for local Docker platform.
          To create multi-arch image, pass -Ddocker.platforms=linux/arm64,linux/amd64
     -->
-    <docker.platforms></docker.platforms>
+    <docker.platforms/>
 
     <!-- required for running tests on JDK11+ -->
     <test.additional.args>
@@ -116,7 +116,7 @@ flexible messaging model and an intuitive client API.</description>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
     <testFailFast>true</testFailFast>
-    <testFailFastFile></testFailFastFile>
+    <testFailFastFile/>
     <testJacocoAgentArgument/>
     <integrationtest.coverage.enabled>false</integrationtest.coverage.enabled>
     <integrationtest.coverage.dir>${project.build.directory}</integrationtest.coverage.dir>
@@ -138,7 +138,7 @@ flexible messaging model and an intuitive client API.</description>
     <commons-cli.version>1.5.0</commons-cli.version>
     <commons-text.version>1.10.0</commons-text.version>
     <snappy.version>1.1.10.1</snappy.version> <!-- ZooKeeper server -->
-    <dropwizardmetrics.version>4.1.12.1</dropwizardmetrics.version> <!-- ZooKeeper server -->
+    <dropwizardmetrics.version>4.2.25</dropwizardmetrics.version> <!-- ZooKeeper server -->
     <curator.version>5.1.0</curator.version>
     <netty.version>4.1.94.Final</netty.version>
     <netty-iouring.version>0.0.21.Final</netty-iouring.version>
