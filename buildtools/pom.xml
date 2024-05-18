@@ -26,7 +26,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>29</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.apache.pulsar</groupId>
@@ -50,7 +50,7 @@
     <netty.version>4.1.94.Final</netty.version>
     <guice.version>4.2.3</guice.version>
     <guava.version>32.1.2-jre</guava.version>
-    <ant.version>1.10.12</ant.version>
+    <ant.version>1.10.14</ant.version>
     <snakeyaml.version>2.0</snakeyaml.version>
     <mockito.version>3.12.4</mockito.version>
     <!-- required for running tests on JDK11+ -->
