@@ -34,7 +34,7 @@
 
     <properties>
         <jctools.version>2.1.2</jctools.version>
-        <dslJson.verson>1.8.4</dslJson.verson>
+        <dslJson.verson>1.10.0</dslJson.verson>
     </properties>
 
     <dependencies>
@@ -226,8 +226,8 @@
 
                             </relocations>
                             <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.PluginXmlResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.PluginXmlResourceTransformer"/>
                             </transformers>
                         </configuration>
                     </execution>
