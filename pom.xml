@@ -98,7 +98,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- By default build for local Docker platform.
          To create multi-arch image, pass -Ddocker.platforms=linux/arm64,linux/amd64
     -->
-    <docker.platforms></docker.platforms>
+    <docker.platforms/>
 
     <!-- required for running tests on JDK11+ -->
     <test.additional.args>
@@ -116,7 +116,7 @@ flexible messaging model and an intuitive client API.</description>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
     <testFailFast>true</testFailFast>
-    <testFailFastFile></testFailFastFile>
+    <testFailFastFile/>
     <testJacocoAgentArgument/>
     <integrationtest.coverage.enabled>false</integrationtest.coverage.enabled>
     <integrationtest.coverage.dir>${project.build.directory}</integrationtest.coverage.dir>
@@ -133,7 +133,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- apache commons -->
     <commons-compress.version>1.21</commons-compress.version>
 
-    <bookkeeper.version>4.16.3</bookkeeper.version>
+    <bookkeeper.version>4.17.1</bookkeeper.version>
     <zookeeper.version>3.8.1</zookeeper.version>
     <commons-cli.version>1.5.0</commons-cli.version>
     <commons-text.version>1.10.0</commons-text.version>
@@ -142,9 +142,9 @@ flexible messaging model and an intuitive client API.</description>
     <curator.version>5.1.0</curator.version>
     <netty.version>4.1.94.Final</netty.version>
     <netty-iouring.version>0.0.21.Final</netty-iouring.version>
-    <jetty.version>9.4.51.v20230217</jetty.version>
+    <jetty.version>9.4.55.v20240627</jetty.version>
     <conscrypt.version>2.5.2</conscrypt.version>
-    <jersey.version>2.34</jersey.version>
+    <jersey.version>2.44</jersey.version>
     <athenz.version>1.10.50</athenz.version>
     <prometheus.version>0.16.0</prometheus.version>
     <vertx.version>4.3.8</vertx.version>
@@ -157,7 +157,7 @@ flexible messaging model and an intuitive client API.</description>
     <bouncycastle.bc-fips.version>1.0.2.3</bouncycastle.bc-fips.version>
     <jackson.version>2.14.2</jackson.version>
     <reflections.version>0.10.2</reflections.version>
-    <swagger.version>1.6.2</swagger.version>
+    <swagger.version>1.6.14</swagger.version>
     <puppycrawl.checkstyle.version>8.37</puppycrawl.checkstyle.version>
     <docker-maven.version>0.42.1</docker-maven.version>
     <docker.verbose>true</docker.verbose>
@@ -211,7 +211,7 @@ flexible messaging model and an intuitive client API.</description>
     <jcommander.version>1.82</jcommander.version>
     <commons-lang3.version>3.11</commons-lang3.version>
     <commons-configuration.version>1.10</commons-configuration.version>
-    <commons-io.version>2.8.0</commons-io.version>
+    <commons-io.version>2.16.1</commons-io.version>
     <commons-codec.version>1.15</commons-codec.version>
     <javax.ws.rs-api.version>2.1</javax.ws.rs-api.version>
     <hdrHistogram.version>2.1.9</hdrHistogram.version>
@@ -223,7 +223,7 @@ flexible messaging model and an intuitive client API.</description>
     <hppc.version>0.9.1</hppc.version>
     <spark-streaming_2.10.version>2.1.0</spark-streaming_2.10.version>
     <assertj-core.version>3.24.2</assertj-core.version>
-    <lombok.version>1.18.28</lombok.version>
+    <lombok.version>1.18.34</lombok.version>
     <javax.annotation-api.version>1.3.2</javax.annotation-api.version>
     <jaxb-api>2.3.1</jaxb-api>
     <javax.activation.version>1.2.0</javax.activation.version>
