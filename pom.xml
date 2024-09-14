@@ -98,7 +98,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- By default build for local Docker platform.
          To create multi-arch image, pass -Ddocker.platforms=linux/arm64,linux/amd64
     -->
-    <docker.platforms></docker.platforms>
+    <docker.platforms/>
 
     <!-- required for running tests on JDK11+ -->
     <test.additional.args>
@@ -116,7 +116,7 @@ flexible messaging model and an intuitive client API.</description>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
     <testFailFast>true</testFailFast>
-    <testFailFastFile></testFailFastFile>
+    <testFailFastFile/>
     <testJacocoAgentArgument/>
     <integrationtest.coverage.enabled>false</integrationtest.coverage.enabled>
     <integrationtest.coverage.dir>${project.build.directory}</integrationtest.coverage.dir>
@@ -133,8 +133,8 @@ flexible messaging model and an intuitive client API.</description>
     <!-- apache commons -->
     <commons-compress.version>1.21</commons-compress.version>
 
-    <bookkeeper.version>4.16.3</bookkeeper.version>
-    <zookeeper.version>3.8.1</zookeeper.version>
+    <bookkeeper.version>4.17.1</bookkeeper.version>
+    <zookeeper.version>3.9.2</zookeeper.version>
     <commons-cli.version>1.5.0</commons-cli.version>
     <commons-text.version>1.10.0</commons-text.version>
     <snappy.version>1.1.10.1</snappy.version> <!-- ZooKeeper server -->
@@ -216,14 +216,14 @@ flexible messaging model and an intuitive client API.</description>
     <javax.ws.rs-api.version>2.1</javax.ws.rs-api.version>
     <hdrHistogram.version>2.1.9</hdrHistogram.version>
     <javax.servlet-api>3.1.0</javax.servlet-api>
-    <caffeine.version>2.9.1</caffeine.version>
+    <caffeine.version>2.9.3</caffeine.version>
     <java-semver.version>0.9.0</java-semver.version>
     <jline.version>2.14.6</jline.version>
     <jline3.version>3.21.0</jline3.version>
     <hppc.version>0.9.1</hppc.version>
     <spark-streaming_2.10.version>2.1.0</spark-streaming_2.10.version>
     <assertj-core.version>3.24.2</assertj-core.version>
-    <lombok.version>1.18.28</lombok.version>
+    <lombok.version>1.18.34</lombok.version>
     <javax.annotation-api.version>1.3.2</javax.annotation-api.version>
     <jaxb-api>2.3.1</jaxb-api>
     <javax.activation.version>1.2.0</javax.activation.version>
@@ -242,7 +242,7 @@ flexible messaging model and an intuitive client API.</description>
     <spring.version>5.3.27</spring.version>
     <apache-http-client.version>4.5.13</apache-http-client.version>
     <apache-httpcomponents.version>4.4.15</apache-httpcomponents.version>
-    <jetcd.version>0.7.5</jetcd.version>
+    <jetcd.version>0.8.3</jetcd.version>
     <snakeyaml.version>2.0</snakeyaml.version>
     <ant.version>1.10.12</ant.version>
     <seancfoley.ipaddress.version>5.3.3</seancfoley.ipaddress.version>
